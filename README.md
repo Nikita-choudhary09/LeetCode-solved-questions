@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0141-linked-list-cycle) |
 | [0229-majority-element-ii](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0229-majority-element-ii) |
 ## Sorting
 |  |
@@ -17,4 +18,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0229-majority-element-ii) |
+## Linked List
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0141-linked-list-cycle) |
+## Two Pointers
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
