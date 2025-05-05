@@ -4,11 +4,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0001-two-sum) |
 | [0047-permutations-ii](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0047-permutations-ii) |
 | [0229-majority-element-ii](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0229-majority-element-ii) |
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0141-linked-list-cycle) |
 | [0229-majority-element-ii](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0229-majority-element-ii) |
 ## Sorting
