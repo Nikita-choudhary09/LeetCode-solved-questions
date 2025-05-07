@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0047-permutations-ii) |
 | [0228-summary-ranges](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0228-summary-ranges) |
 | [0229-majority-element-ii](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0229-majority-element-ii) |
+| [0792-binary-search](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0792-binary-search) |
 ## Hash Table
 |  |
 | ------- |
@@ -35,4 +36,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0047-permutations-ii) |
+## Binary Search
+|  |
+| ------- |
+| [0792-binary-search](https://github.com/Nikita-choudhary09/LeetCode-solved-questions/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->
