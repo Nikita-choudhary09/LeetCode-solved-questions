@@ -1,44 +1,42 @@
 class Solution {
 public:
-    int minDays(vector<int>& bloomDay, int m, int k) {
-        if ((long long)m * k > bloomDay.size()) {
-            return -1;
-        }
+    bool possible(vector<int>& bloomDay, int day, int m, int k) {
+        int cnt = 0;
+        int noOfBoq = 0;
 
-        int low = 1, high = 1e9;
-        while (low < high) {
+        for (int i = 0; i < bloomDay.size(); i++) {
+            if (bloomDay[i] <= day) {
+                cnt++;
+                if (cnt == k) {
+                    noOfBoq++;
+                    cnt = 0;
+                }
+            } else {
+                cnt = 0; // reset count if a bloom is not ready
+            }
+        }
+        return noOfBoq >= m;
+    }
+
+    int minDays(vector<int>& bloomDay, int m, int k) {
+        long long total = 1LL * m * k;
+        if (total > bloomDay.size()) return -1; // Not enough flowers
+
+        int low = *min_element(bloomDay.begin(), bloomDay.end());
+        int high = *max_element(bloomDay.begin(), bloomDay.end());
+
+        int ans = -1;
+        while (low <= high) {
             int mid = low + (high - low) / 2;
 
-            if (canMakeBouquets(bloomDay, m, k, mid)) {
-                high = mid;
+            if (possible(bloomDay, mid, m, k)) {
+                ans = mid;
+                high = mid - 1; // try for a smaller day
             } else {
                 low = mid + 1;
             }
         }
 
-        return low;
-    }
-
-private:
-    bool canMakeBouquets(vector<int>& bloomDay, int m, int k, int day) {
-        int total = 0;
-        for (int i = 0; i < bloomDay.size(); i++) {
-            int count = 0;
-            while (i < bloomDay.size() && count < k && bloomDay[i] <= day) {
-                count++;
-                i++;
-            }
-
-            if (count == k) {
-                total++;
-                i--;
-            }
-
-            if (total >= m) {
-                return true;
-            }
-        }
-
-        return false;
+        return ans;
     }
 };
