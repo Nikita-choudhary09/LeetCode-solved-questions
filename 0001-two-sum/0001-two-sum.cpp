@@ -9,7 +9,6 @@ public:
         
         for (int i = 0; i < nums.size(); ++i) {
             int complement = target - nums[i];
-            
             // If complement is already in the map, return the pair
             if (num_to_index.find(complement) != num_to_index.end()) {
                 return {num_to_index[complement], i};
